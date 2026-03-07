@@ -1,6 +1,8 @@
 // Bibliotecas a utilizar
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 // Estructura Hospital
 typedef struct hospital
@@ -99,7 +101,8 @@ void llenar_hospital(hospital *Hospital)
 // Llenar doctor
 void llenar_doctor(doctor *Doctor)
 {
-    int valido, i;
+    // Variables a utilizar
+    int disponible, valido, i;
 
     // Nombre (solo letras y espacios)
     do
@@ -166,6 +169,15 @@ void llenar_doctor(doctor *Doctor)
             printf("Error: Solo letras y espacios.\n");
 
     } while (!valido);
+
+    // Numeros de doctor disponibles
+    for (int i = 0; i < 3; i++)
+    {
+        srand(time(NULL));
+        disponible = rand() % 111 + 100;
+        disponible += i;
+        printf("Numero %d disponible: %d\n", i + 1, numero);
+    }
 
     // Número de trabajador (solo positivo)
     do
