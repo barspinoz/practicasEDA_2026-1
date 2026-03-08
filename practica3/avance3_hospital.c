@@ -1,3 +1,33 @@
+/*
+ * ESTRUCTURA DE DATOS Y ALGORITMOS I
+ *
+ * PRACTICA 3: HOSPITAL
+ *
+ * OBJETIVO:
+ * El siguiente programa corresponde a la práctica 3
+ * de la materia EDA I. El tema que se aborda es el
+ * de estructuras en el lenguaje de programación C.
+ * Con el fin de poner en práctica los conocimientos
+ * adquiridos, se diseñará un programa que con la
+ * ayuda de las estructuras, pueda hacer la gestión
+ * de los datos de un hospital. Los datos abordan:
+ *
+ * - Las generalidades del hospital
+ * - Datos de los pacientes
+ * - Datos de los doctores
+ *
+ * Entre otros datos más (que se especificarán for-
+ * malmente en los detalles de la tarea en Google
+ * Classroom.
+ *
+ * BRIGADA 1:
+ * - CASTELAN SIERRA GAEL
+ * - ESPINOSA SALVADOR ROMAN
+ * - MALDONADO MARTINEZ ERICK FERNANDO
+ * - VIDAURE ÁLVAREZ KEVIN EMMANUEL
+ *
+ */
+
 // Bibliotecas a utilizar
 #include <stdio.h>
 #include <stdlib.h>
