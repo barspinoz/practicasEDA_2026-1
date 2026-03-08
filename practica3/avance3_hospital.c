@@ -12,7 +12,7 @@
  * ayuda de las estructuras, pueda hacer la gestión
  * de los datos de un hospital. Los datos abordan:
  *
- * - Las generalidades del hospital
+ * - Datos del hospital
  * - Datos de los pacientes
  * - Datos de los doctores
  *
