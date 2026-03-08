@@ -176,7 +176,7 @@ void llenar_doctor(doctor *Doctor)
         srand(time(NULL));
         disponible = rand() % 111 + 100;
         disponible += i;
-        printf("Numero %d disponible: %d\n", i + 1, numero);
+        printf("Numero %d disponible: %d\n", i + 1, disponible);
     }
 
     // Número de trabajador (solo positivo)
