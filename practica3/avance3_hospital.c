@@ -171,6 +171,7 @@ void llenar_doctor(doctor *Doctor)
     } while (!valido);
 
     // Numeros de doctor disponibles
+    print("---- Numeros de trabajador disponible ----\n");
     for (int i = 0; i < 3; i++)
     {
         srand(time(NULL));
@@ -374,6 +375,5 @@ int main()
         }
     } while (opcion != 3);
 
-    printf("Saliendo de la base de datos...\n");
     return 0;
 }
