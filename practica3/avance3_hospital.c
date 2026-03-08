@@ -16,10 +16,6 @@
  * - Datos de los pacientes
  * - Datos de los doctores
  *
- * Entre otros datos más (que se especificarán for-
- * malmente en los detalles de la tarea en Google
- * Classroom.
- *
  * BRIGADA 1:
  * - CASTELAN SIERRA GAEL
  * - ESPINOSA SALVADOR ROMAN
